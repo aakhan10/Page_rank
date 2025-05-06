@@ -4,7 +4,7 @@
 This project implements the PageRank algorithm using C++. It supports interactive input or file-based input for testing directed graphs represented by adjacency matrices.
 
 ## Files Included
-- `pagerank.cpp`: Main C++ implementation.
+- `project.cpp`: Main C++ implementation.
 - `Makefile`: For compiling the program with `make`.
 - `test1.txt` to `test5.txt`: Example test case files with various graph structures.
 
@@ -16,7 +16,7 @@ make
 
 Or compile manually:
 ```
-g++ -std=c++20 -Wall -Wextra pagerank.cpp -o pagerank
+g++ -std=c++20 -Wall -Wextra project.cpp -o pagerank
 ```
 
 ## How to Run
@@ -25,14 +25,14 @@ g++ -std=c++20 -Wall -Wextra pagerank.cpp -o pagerank
 You will be prompted to enter the number of nodes and the adjacency matrix.
 
 ```
-./pagerank
+./project
 ```
 
 ### Option 2: Using Input Files
 Redirect input from a `.txt` file:
 
 ```
-./pagerank < test1.txt
+./project < test1.txt
 ```
 
 Each test file format:
